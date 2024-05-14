@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: Scanning Lines
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 550
+  injectionPoint: 450
   fetchColorBuffer: 1
   requirements: 4
   passMaterial: {fileID: -876546973899608171, guid: acfcd1dfec98f4bc8b5fd5a19ddb4250,
