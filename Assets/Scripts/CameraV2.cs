@@ -9,7 +9,10 @@ public class CameraV2 : MonoBehaviour
     public GameObject Camera2;
     public GameObject Camera3;
 
-
+    void Start()
+    {
+        CameraOne();
+    }
     void Update()
     {
         if (Input.GetKeyDown("1"))
