@@ -299,7 +299,9 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 3942281834838569821, guid: d29d9b23d47a31647a9b77864325184f, type: 2}
+    value: {fileID: 1928016470}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &64762101
@@ -479,6 +481,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_BLOCKOUTNODOORS
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099177919975830338, guid: daa9702f6ce50d646aeb421e629fb64f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
